@@ -1,0 +1,24 @@
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-splash {
+    height: 100%;
+    background-image: url('../../assets/squeegees-01.jpg');
+    background-size: cover;
+    filter: grayscale(75%);
+}
+
+.banner {
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    height: 70%;
+}
